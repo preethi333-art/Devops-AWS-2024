@@ -179,6 +179,17 @@ It defaults to measuring . (current directory)
 find . -type f -exec du -sh {} +    # Find the files with sizes
 find . -type f -exec du -sh {} \;
 
+difference between + and  \
+
++ ex : du -sh a b c
+\  ex :
+
+du -sh a
+
+du -sh b
+
+du -sh c
+
 
 | Part             | Meaning                            |
 | ---------------- | ---------------------------------- |
