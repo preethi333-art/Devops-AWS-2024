@@ -42,6 +42,22 @@ after understand the binary language it will return back the result to shell. sh
 -> kernal:- It translate into binary language, interface between shell and hardware
 -> Hardware: it will understand the binary language
 
+=============================================================================
+| Component    | What it is                          | Purpose                                              | Example Command  |
+| ------------ | ----------------------------------- | ---------------------------------------------------- | ---------------- |
+| **CPU**      | Processor                           | Executes instructions and performs calculations      | `top`, `nproc`   |
+| **RAM**      | Main memory                         | Temporarily stores data for running programs         | `free -h`        |
+| **Disk**     | Permanent storage (HDD/SSD)         | Stores the operating system, files, and applications | `df -h`          |
+| **Hardware** | Physical components of the computer | Includes CPU, RAM, motherboard, BIOS, disks, etc.    | `sudo dmidecode` |
+
+| Command                        | Purpose                                              |
+| ------------------------------ | ---------------------------------------------------- |
+| `top`                          | Real-time system monitoring (CPU, Memory, Processes) |
+| `free`                         | Display RAM and Swap usage                           |
+| `nproc`                        | Show the number of CPU cores available               |
+| `df`                           | Display disk space usage                             |
+| `dmidecode` *(not `dmidcoce`)* | Display hardware/BIOS information                    |
+
 
 # Linux Commands
 -------------------------------------------------------------------------------------------------------------------------------
